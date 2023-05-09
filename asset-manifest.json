@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-tweet-card/static/css/main.cc693055.css",
+    "main.js": "/goit-tweet-card/static/js/main.f243ab1f.js",
+    "static/media/picture.png": "/goit-tweet-card/static/media/picture.032662a2a907475127d7.png",
+    "index.html": "/goit-tweet-card/index.html",
+    "main.cc693055.css.map": "/goit-tweet-card/static/css/main.cc693055.css.map",
+    "main.f243ab1f.js.map": "/goit-tweet-card/static/js/main.f243ab1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc693055.css",
+    "static/js/main.f243ab1f.js"
+  ]
+}
