@@ -1,0 +1,75 @@
+.tweets__list {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    text-align: center;
+}
+
+.linkWrapper {
+    margin: 50px 20px;
+}
+
+.linkBack {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #471ca9;
+    align-items: center;
+    display: flex;
+}
+
+span {
+    margin-left: 15px;
+}
+
+.tweets__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 14px 28px;
+    min-width: 196px;
+
+    background: #5cd3a8;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    border-radius: 10.3108px;
+    border: 0;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #373737;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 20px rgba(237, 229, 229, 0.601);
+        color: #5123bd;
+    }
+
+    &:disabled {
+        background-color: rgba(237, 229, 229, 0.601);
+
+        &:hover,
+        &:focus {
+            box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+            color: #373737;
+            cursor: not-allowed;
+        }
+    }
+}
+
+.tweets__button .tweets__buttonDisabled {
+    background-color: rgba(237, 229, 229, 0.601);
+}
